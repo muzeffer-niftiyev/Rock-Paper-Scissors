@@ -29,7 +29,7 @@ Are you ready to play? Let the games begin!
 
 ## Demo
 
-[Rock Paper Scissors](https://muzeffer-niftiyev.github.io/rock-paper-scissors/)
+[Rock Paper Scissors](https://muzeffer-niftiyev.github.io/Rock-Paper-Scissors)
 
 ---
 
