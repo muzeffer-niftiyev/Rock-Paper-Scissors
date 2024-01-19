@@ -40,3 +40,4 @@ Are you ready to play? Let the games begin!
 ```bash
 git clone git@github.com:muzeffer-niftiyev/Rock-Paper-Scissors.git
 ```
+
