@@ -34,14 +34,15 @@ selectScissors.addEventListener("click", function () {
   changePage();
   userChoise = 2;
   userText.textContent = "You chose scissors";
-  userImg.src = `img-${userChoise}.png`;
+  userImg.src = `img/img-${userChoise}.png`;
   userImg.style.borderColor = "#eca922";
 });
+
 selectPaper.addEventListener("click", function () {
   changePage();
   userChoise = 3;
   userText.textContent = "You chose paper";
-  userImg.src = `img-${userChoise}.png`;
+  userImg.src = `img/img-${userChoise}.png`;
   userImg.style.borderColor = "#5671f5";
 });
 
@@ -49,14 +50,14 @@ selectRock.addEventListener("click", function () {
   changePage();
   userChoise = 1;
   userText.textContent = "You chose rock";
-  userImg.src = `img-${userChoise}.png`;
+  userImg.src = `img/img-${userChoise}.png`;
   userImg.style.borderColor = "#dd405d";
 });
 
 items.forEach((item) => {
   item.addEventListener("click", function () {
     opponentChoise = Math.floor(Math.random() * 3 + 1);
-    opponentImg.src = `img-${opponentChoise}.png`;
+    opponentImg.src = `img/img-${opponentChoise}.png`;
     opponentText.textContent = `THE OPPONENT PICKED ${
       opponentChoise === 1
         ? "ROCK"
@@ -72,7 +73,6 @@ items.forEach((item) => {
         : "#5671f5"
     }`;
 
-    console.log(score);
     if (userChoise === opponentChoise) {
       gameResult.textContent = "Draw";
     } else if (
@@ -90,4 +90,3 @@ items.forEach((item) => {
     }
   });
 });
-
