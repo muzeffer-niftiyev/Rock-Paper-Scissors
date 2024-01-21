@@ -2,7 +2,7 @@
 
 ---
 
-## Description
+## 📝 Description
 
 Welcome to the  Rock Paper Scissors game!.
 
@@ -10,7 +10,7 @@ On the main page of the game you have 3 choises: Rock, Paper or Scissors. After 
 
 Are you ready to play? Let the games begin!
 
-#### Technologies
+#### 💻 Technologies
 
 - HTML
 - CSS
@@ -18,7 +18,7 @@ Are you ready to play? Let the games begin!
 
 ---
 
-## Features
+## ✨ Features
 
 - Lets you make one of 3 choises.
 - Compares your choise with computer's choise.
@@ -27,13 +27,13 @@ Are you ready to play? Let the games begin!
 
 ---
 
-## Demo
+## 🚀 Demo
 
-[Rock Paper Scissors](https://muzeffer-niftiyev.github.io/Rock-Paper-Scissors)
+[🔗 Rock Paper Scissors](https://muzeffer-niftiyev.github.io/Rock-Paper-Scissors)
 
 ---
 
-## Installation
+## 🛠 Installation
 
 1. Clone the repository
 
